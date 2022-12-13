@@ -1,0 +1,74 @@
+(JUGADOR)1-Usuario(idUsuario, nombre, honor, estatus)XXX  
+2-Rango(idRangos, nombre, nivel, tipo, estatus)XXX
+3-Historial(idHistorial, campeonJugado, asesianatos, asistencias, muertes, minionsAsecinados, oroObtenido, fecha, duracion, estatus) 
+4-matchMakingRank(idmatchMakingRank, puntosLiga, puntosLigaEnemigo, tipo, estatus)XXX
+5-Clash(idClah, fechaInicio, fechaFinal, nombre, premio, participantes, estaus)XXX
+6-Amigo(idAmigos, nombreAmigo, apodo, tipo, estatus)XXX
+7-Configuracion(idConfiguracion, graficos, atajos, sonido, chat, estatus)XXX
+8-Mision(idMision, fechaInicio, fechaFinal, descripcion, recompensa, estatus )XXX
+9-PaginaRuna(idPaginaRuna, principal, secundaria, adaptables, progresion)
+10-Desafios(idDesafio, nombre, descripcion, rango, porcentajeJugadoresObtenidos, rama, estatus)XXX
+(INGAME)11-Partida(idPartida, fecha, tipo, duracion, estatus)XXX
+12-Habilidad(idHabilidad, nombre, tipo, descripcion, costo, estatus)
+13-Campeon(idCampeon, nombre, habilidadQ, habilidadW, habilidadE, habilidadR, rol, posicion, estatus)XXX
+14-Objeto(idObjeto, nombre, descripcion, beneficios, precio, rareza, estatus)XXX
+15-Eterno(idEterno , serie, descripcionEternoInicial, descripcionEternoMedio, descripcionetEternoFinal, precio, estatus)XXX
+16-Maestria(idMaestria, nivel, puntos, estatus)XXX
+17-Runas(idRuna, nombre, descripcion, beneficio, nivel, estatus)XXX
+18-Build(idBuild, Mitico, bota, nombreObjeto1, nombreObjeto2, nombreobjeto3, nombreobjeto4, estatus)XXX
+19-TiendaJuego(idTiendaJuego, objetoRecomendado, objetos, pociones, botas, centinelas. estatus)XXX
+20-Modo de juego(idModoJuego, nombre, descripcion, fechaInicio, fechaFinal, tipoMapa, estatus)XXX
+21-Subditos(idSubdito, tipo, oroEntregado, vida, daño estatus)XXX
+22-MounstrosJG(idMounstroVacio , tipo, duracionBeneficio, beneficio, estatus)XXX
+23-Dragon(idDragon, tipo, almaEntregada, beneficio, estatus)XXX
+24-MounstroVacio(idNashor, nivel, beneficio, duracionBeneficio, estatus)XXX
+25-Buff(idBuff, tipo, descripcion, beneficio, estatus)XXX
+26-parche(idParche, numero, descripcion, estatus)XXX
+27-hechizos(idHechizo, nombre, efecto, enfriamiento, estatus)XXX
+28-centinela(idCentinela, nombre, tipo, precio, estatus)XXX
+29-mapa(idMapa, nombre, tamaño, numeroCarriles, estatus)XXX
+30-torres(idTorre, nivel, placas, vida, daño, estatus)XXX
+31-Inhibidor(idInhibidor, nivel, vida, tiempo, estatus)XXX
+(ESPORTS)31-Torneo(idTorneo, fechaInicio, fechaFinal, participantes, rondas, estatus)XXX
+32-musica(idMusica, nombre, duracion, album, estatus)XXX
+33-jugador(idJugador, apodo, edad, nombre, nacionalidad, main, estatus)XXX
+34-estadisticas(idEstadistica, kda, farmPorMinuto, partidasJugadas, campeonadosDomesticos, CampeonatosMundiales, estatus )XXX
+35-rol(idRol, rol principal, rol secundario, estataus)XXX
+36-WORLDS(idWorlds, fechaInicio, fechaFinal, participantes, locacionFinal, locacionSemiFinal, locacionEliminatorias, locacionFaseGrupos, premio, estatus)XXX
+37-Equipo(idEquipo, nombreEquipo, top, jungla, mid, tirador, soporte, coach, suplente, estatus)XXX
+38-region(idRegion, nombre, cantidadEquipos, paises, estatus)XXX
+(TIENDA)39-Skin(idSkin, nombre, serie, descripcion, tier, Precio, estatus)XXX
+40-Tienda(idTienda, ofertas, masPopulares, estatus)XXX
+41-Pase Batalla(idPaseBatalla, recompensa, )XXX
+42-Gestos(idGesto, nombre, descripcion, precio, estatus)XXX
+43-Chromas(idChroma, nombre, tipo, precio, estatus)XXX
+44-Tu tienda(idTuTienda, skinLegendaria, SkinEpica, SkinNormal, skin rara, estatus)XXX
+45-Cofre(idCofre, objetoEspecial, objetoNormal, tipo, precio, estatus)XXX
+46-Botin(idBotin, nombreMaterial, descripcionMaterial, recompensaMaterial, precio, estatus )XXX
+47-Regalos(idRegalo, destinatario, remitente, contenido, nota, estatus )XXX
+48-Season(idSeason, fechaInicio, fechaFinal, nombre, estatus)XXX
+49-Bolsa(idBolsa, cantidadCampeones, cantidadGestos, canidadRunas, cantidaHechizos, cantidadCentinelas, estatus)XXX
+50-Parche(idParche, numero, tipo, descripcion, estatus)XXX
+51-EquipoTorneo(idEquipoTorneo, idEquipo, idTorneo, posicion, estatus)XXX
+52-TorneoWorlds(idTorneoWorlds, idTorneo, idWorlds, estatus)XXX
+53-RolCampeon(idRolCampeon, idRol, idCampeon, descripcionRol , estatus)XXX
+54-CampeonBuild(idCampeonBuild, idCampeon, idBuild, buildRecomendada, estatus)XXX
+55-CampeonObjeto(idCampeonObjeto, idCampeon, idObjeto, mitico, bota, objeto3, objeto4, objeto5, objeto6, estatus)XXX
+56-BuildObjeto(idBuildObjeto, idBuild, idObjeto, mitico, botas, objeto3, objeto4, objeto5, objeto6, estatus)XXX
+57-PartidaMMR(idPartidaMatchMakingRanking, idPartida, idMatchMakingRanking, matchMakingRankingRojo, matchMakingRankingRojo, estatus)XXX
+58-MatchMakingRankingHistorial(idMatchMakingRankingHistorial, idMatchMakingRanking, idHistorial, estatus)XXX
+59-RangoSeason(idRangoSeason, idRango, idSeason, rangoSoloq, rangoFlex, estatus)XXX
+60-UsuarioAmigos(idUsuarioAmigos, idUsuario, idAmigos, apodo, estatus)XXX
+61-UsuarioPaginarunas(idUsarioPaginarunas, idUsuario, idPaginarunas, paginaPersonalizada, estatus)XXX
+62-TiendaBolsa(idTiendaBolsa, idTienda, idBolsa, objetosNoObtenidos, estaus)
+
+
+
+
+
+
+
+
+
+
+
